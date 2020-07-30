@@ -1,0 +1,139 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.bg-img {
+  background: url("https://res.cloudinary.com/rchshrm16/image/upload/v1479886968/bg2_h7caub.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  position: relative;
+}
+.bg-img .poster {
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-8%, -50%);
+  -webkit-box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.67);
+}
+.back {
+  color: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.text {
+  height: 100%;
+  position: relative;
+}
+.next {
+  color: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+}
+.search {
+  width: auto;
+  float: right;
+  border: 2px solid #bdbdbd;
+  border-radius: 20px;
+  color: #bdbdbd;
+  padding: 5px 10px;
+  margin: 30px 40px;
+}
+.search input {
+  border: 0;
+  text-align: right;
+  outline: none;
+}
+.containt {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 90%;
+  color: white;
+  padding: 40px 20px 40px 100px;
+}
+.containt h2 {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.containt h3 {
+  font-weight: 300;
+  font-size: 25px;
+}
+.containt h4 {
+  color: white;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+.containt .btn-cont {
+  padding: 30px 0;
+}
+.mybtn {
+  float: left;
+
+  padding: 5px 25px;
+  color: #bdbdbd;
+  border: 2px solid #bdbdbd;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 20px;
+  outline: 0;
+}
+.mybtn:hover,
+.mybtn:active {
+  color: #fff;
+  background-color: #bdbdbd;
+}
+.btn-cont span {
+  padding-left: 29px;
+  padding-top: 5px;
+  display: inline-block;
+}
+.btn-cont span ul {
+  display: inline-block;
+  font-size: 20px;
+}
+.btn-cont span ul li {
+  list-style-type: circle;
+  float: left;
+  margin: 0 10px;
+}
+
+.additional {
+  color: white;
+}
+
+.additional:link {
+  color: #fff;
+  font-size: 18px;
+}
+.additional:visited {
+  color: #fff;
+}
+
+.additional:active {
+  color: red;
+}
+
+.review-author {
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-menu:first-child {
+  margin-right: 50px;
+}
+
+.Navigation-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.movie-link {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 15px;
+  color: white;
+}
+
+h1 {
+  margin-left: 20px;
+  text-align: center;
+}
